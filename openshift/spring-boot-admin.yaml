@@ -38,7 +38,7 @@ objects:
     runPolicy: Serial
     source:
       git:
-        ref: master
+        ref: development
         uri: https://github.com/ricardozanini/spring-boot-admin-k8s
       type: Git
     strategy:
