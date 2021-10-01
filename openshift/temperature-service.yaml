@@ -8,8 +8,8 @@ metadata:
     description: Spring Boot Temperature Service to test Spring Boot Admin environment
     iconClass: icon-java
     tags: microservice,spring,spring-boot
-    author: Ricardo Zanini <ricardozanini@gmail.com>
-    url: https://github.com/ricardozanini/spring-boot-admin-k8s
+    author: None
+    url: https://github.com/bmgitit777/spring-boot-admin-k8s
   name: temperature-service
 parameters:
 - description: Spring Boot Admin URL. If it's deployed locally, use service url (e.g. http://spring-boot-admin:8080)
@@ -45,7 +45,7 @@ objects:
     source:
       git:
         ref: development
-        uri: https://github.com/ricardozanini/spring-boot-admin-k8s.git
+        uri: https://github.com/bmgitit777/spring-boot-admin-k8s
       type: Git
     strategy:
       sourceStrategy:
@@ -58,8 +58,8 @@ objects:
           value: service
         from:
           kind: ImageStreamTag
-          name: redhat-openjdk18-openshift:1.2
-          namespace: openshift
+          name: openjdk18:latest
+          namespace: spring-boot-admin
       type: Source
     triggers:
     - imageChange: {}
