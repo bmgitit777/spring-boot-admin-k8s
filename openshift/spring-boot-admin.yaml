@@ -8,8 +8,8 @@ metadata:
     description: Spring Boot Admin on OpenShift Template
     iconClass: icon-java
     tags: microservice,spring,spring-boot
-    author: Ricardo Zanini <ricardozanini@gmail.com>
-    url: https://github.com/ricardozanini/spring-boot-admin-k8s
+    author: None
+    url: https://github.com/bmgitit777/spring-boot-admin-k8s.git
   name: spring-boot-admin
 objects:
 - apiVersion: v1
@@ -39,7 +39,7 @@ objects:
     source:
       git:
         ref: master
-        uri: https://github.com/ricardozanini/spring-boot-admin-k8s
+        uri: https://github.com/bmgitit777/spring-boot-admin-k8s.git
       type: Git
     strategy:
       sourceStrategy:
