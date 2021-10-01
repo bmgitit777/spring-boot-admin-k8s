@@ -27,7 +27,7 @@ objects:
   spec:
     tags:
       - name: latest
-- apiVersion: v1
+- apiVersion: v2
   kind: BuildConfig
   metadata:
     labels:

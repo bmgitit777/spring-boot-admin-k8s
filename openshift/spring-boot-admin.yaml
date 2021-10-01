@@ -12,7 +12,7 @@ metadata:
     url: https://github.com/ricardozanini/spring-boot-admin-k8s
   name: spring-boot-admin
 objects:
-- apiVersion: v1
+- apiVersion: v2
   kind: ImageStream
   metadata:
     labels:
